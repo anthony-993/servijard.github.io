@@ -3,20 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Empresa de Servicios</title>
+    <title>Inversiones ServiJard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
-
 </head>
 <body>
-
-    <!-- Encabezado -->
     <header>
         <div class="container">
             <h1>
-                <img src="media/logo2.jpeg" alt="Logo de la empresa"> Inversiones ServiJard
+                <img src="media/logo2.jpeg" alt="Logo de la SERVIJARD"> Inversiones ServiJard
             </h1>
-            <button class="menu-toggle">☰</button>
+            <button class="menu-toggle" aria-label="Abrir menú">☰</button>
+
             <nav>
                 <ul class="menu">
                     <li><a href="#inicio">Inicio</a></li>
@@ -27,63 +26,59 @@
             </nav>
         </div>
     </header>
+    
     <div class="swiper-container">
         <div class="swiper-wrapper">
             <div class="swiper-slide"><img src="media/jardin1.jpg" alt="Imagen 1"></div>
             <div class="swiper-slide"><img src="media/logo2.jpeg" alt="Imagen 2"></div>
-            
+            <div class="swiper-slide"><img src="media/logo4.png" alt="Imagen 2"></div>
         </div>
-        <!-- Flechas de navegación -->
         <div class="swiper-button-next"></div>
         <div class="swiper-button-prev"></div>
-        <!-- Paginación -->
         <div class="swiper-pagination"></div>
     </div>
-    <!-- Sección de Inicio -->
+    
     <section id="inicio">
         <div class="container">
             <h2>Bienvenidos a nuestra Empresa</h2>
-            <p>Brindamos soluciones a medida para cada necesidad empresarial.</p>
+            <p>En SERVIJARD, nos especializamos en brindar soluciones de jardinería, construcción, remodelación y limpieza.</p>
         </div>
     </section>
 
-    <!-- Sección Nosotros -->
     <section id="nosotros">
         <div class="container">
             <h2>¿Quiénes somos?</h2>
-            <p>Somos una empresa dedicada a ofrecer servicios de calidad en diversas áreas. Nuestro equipo está comprometido con la excelencia.</p>
+            <p>Contamos con un equipo de profesionales y operarios calificados para brindar un servicio de calidad.</p>
         </div>
     </section>
 
-    <!-- Sección de Servicios -->
     <section id="servicios">
         <div class="container">
             <h2>Servicios</h2>
             <div class="servicio">
-                <h3>Consultoría Empresarial</h3>
-                <p>Brindamos asesoría estratégica para mejorar tu negocio.</p>
+                <h3>Jardinería</h3>
+                <p>Transformamos y mantenemos tus espacios verdes.</p>
             </div>
             <div class="servicio">
-                <h3>Desarrollo de Software</h3>
-                <p>Soluciones a medida para optimizar los procesos de tu empresa.</p>
+                <h3>Limpieza</h3>
+                <p>Soluciones de limpieza para hogares y negocios.</p>
             </div>
             <div class="servicio">
-                <h3>Marketing Digital</h3>
-                <p>Estrategias para aumentar tu visibilidad en el mercado online.</p>
+                <h3>Construcción</h3>
+                <p>Remodelamos y construimos con los mejores materiales.</p>
             </div>
         </div>
     </section>
 
-    <!-- Sección de Contacto -->
     <section id="contacto">
+        
         <div class="container">
             <h2>Contacto</h2>
             <form action="https://formspree.io/f/xvgkbdvp" method="POST">
-            <form action="#" method="POST">
                 <label for="nombre">Nombre:</label>
                 <input type="text" id="nombre" name="nombre" required>
 
-                <label for="email">Correo Electrónico:</label>
+                <label for="email">Correo:</label>
                 <input type="email" id="email" name="email" required>
 
                 <label for="mensaje">Mensaje:</label>
@@ -91,20 +86,24 @@
 
                 <button type="submit">Enviar</button>
             </form>
+
+            <div class="info-contacto-lineal">
+                <div><i class="fas fa-phone"></i> 928476040<br><span class="texto-bajo">Lunes - Viernes, 8am - 7pm</span></div>
+                <div><i class="fas fa-envelope"></i> pantojaa45@gmail.com<br><span class="texto-bajo">¡Estamos a su servicio!</span></div>
+                <div><i class="fas fa-map-marker-alt"></i> Mz. B Lt. 10 prog. viv.<br><span class="texto-bajo">Las Casuarinas Carabayllo</span></div>
+                
+            </div>
+            
         </div>
     </section>
 
-    <!-- Pie de Página -->
     <footer>
         <div class="container">
-            <p>&copy; 2025 Empresa de Servicios. Todos los derechos reservados.</p>
+            <p>&copy; 2025 SERVIJARD. Todos los derechos reservados.</p>
         </div>
     </footer>
 
-    <!-- 🔥 Ahora el JavaScript está correctamente vinculado -->
-    <script src="tex.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-
-
+    <script src="tex.js"></script>
 </body>
 </html>
